@@ -21,17 +21,18 @@ final demoPlaylist = new DemoPlaylist(
       artist: 'Nights & Weekends',
     ),
     new DemoSong(
+      audioUrl: 'http://192.168.42.106:3008/user/listen?id=Imagine_Dragons_-_Birds_Official_Audio[Converterino.online].mp3',
+      albumArtUrl: 'http://192.168.42.106:3008/user/listen?id=P2vIvZOaCxU.jpg',
+      songTitle: 'Debut',
+      artist: 'Nights & Weekends',
+    ),
+    new DemoSong(
       audioUrl: 'https://api.soundcloud.com/tracks/260578593/stream?secret_token=s-tj3IS&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P',
       albumArtUrl: 'https://i1.sndcdn.com/artworks-000165346750-e36z3a-t500x500.jpg',
       songTitle: 'Debut Trance',
       artist: 'Nights & Weekends',
     ),
-    new DemoSong(
-      audioUrl: 'https://api.soundcloud.com/tracks/258735531/stream?secret_token=s-tj3IS&client_id=LBCcHmRB8XSStWL6wKH2HPACspQlXg2P',
-      albumArtUrl: 'https://i1.sndcdn.com/artworks-000165346750-e36z3a-t500x500.jpg',
-      songTitle: 'Debut',
-      artist: 'Nights & Weekends',
-    ),
+
   ],
 );
 
